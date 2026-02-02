@@ -1,3 +1,7 @@
+# Dashboard adaptado por Gisselam
+# Materia: Programación Orientada a Objetos
+# Uso: Organización de tareas y proyectos del curso
+
 import os
 import subprocess
 
@@ -27,6 +31,13 @@ def ejecutar_codigo(ruta_script):
         print(f"Ocurrió un error al ejecutar el código: {e}")
 
 def mostrar_menu():
+        
+        print("=" * 50)
+        print("DASHBOARD DE PROGRAMACIÓN ORIENTADA A OBJETOS")
+        print("Estudiante: Gissela Paillacho")
+        print("Gestión de tareas y proyectos del curso")
+        print("=" * 50)
+
     # Define la ruta base donde se encuentra el dashboard.py
     ruta_base = os.path.dirname(__file__)
 
